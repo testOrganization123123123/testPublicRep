@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        environment: [test, uat, prod]
+        environment: [testEnviromet, uatEnviroment, prodEnviroment]
 
     steps:
       - name: Checkout code
