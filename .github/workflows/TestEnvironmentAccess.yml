@@ -12,7 +12,7 @@ on:
 jobs:
   test-access:
     runs-on: ubuntu-latest
-    environment: uatEnviromet
+    environment: uatEnviroment
 
     steps:
       - name: Checkout code
