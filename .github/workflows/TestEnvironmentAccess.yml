@@ -12,9 +12,7 @@ on:
 jobs:
   test-access:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        environment: [test, uat, prod]
+    environment: testEnviromet
 
     steps:
       - name: Checkout code
