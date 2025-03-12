@@ -12,7 +12,7 @@ on:
 jobs:
   test-access:
     runs-on: ubuntu-latest
-    environment: prod
+    environment: prodEnviroment
 
     steps:
       - name: Checkout code
